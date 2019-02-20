@@ -1,0 +1,12 @@
+npm init
+
+To make a server:
+npm install lite-server --save-dev                   {lite-serve --save-dev   if package.json is not there}
+
+
+"start": "npm run lite",
+"lite": "lite-server"            {Some editing in pacakge.json. don't know why}
+
+
+To start the server:
+npm start

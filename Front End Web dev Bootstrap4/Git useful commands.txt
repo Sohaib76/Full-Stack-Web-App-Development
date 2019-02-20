@@ -1,0 +1,29 @@
+git init
+git status
+git add .
+git commit -m ""
+git log --oneline    (To check commits)
+
+git checkout (Idnumber) Index.html         {Go back to the specific commet}
+
+Resetting the Git repository::::
+To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type.
+git reset HEAD index.html
+
+Then type the following at the prompt.
+git checkout -- index.html
+
+You can also use git reset to reset the staging area to the last commit without disturbing the working directory.
+
+
+(Sending local git repository to online git repository)
+git remote add origin (URl)
+git push -u origin master
+
+(To copy an online git repository on your computer)
+
+
+(Exclude some files or folders to be copied on online git repository)
+create .gitignore file  >> type node-modules(the folder which we want to exclude)
+
+git clone  URL
